@@ -1,0 +1,31 @@
+{
+  "name": "redego",
+  "version": "1.0.0",
+  "main": "app/main.js",
+  "description": "Time tracking application for macOS",
+  "scripts": {
+    "start": "electron .",
+    "test": "eslint app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakereps/redego.git"
+  },
+  "keywords": [],
+  "author": "Jorden Kreps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakereps/redego/issues"
+  },
+  "homepage": "https://github.com/jakereps/redego#readme",
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1"
+  },
+  "dependencies": {
+    "electron": "^1.4.10"
+  }
+}
