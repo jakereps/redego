@@ -1,5 +1,5 @@
-const { app, Tray, Menu } = require('electron');
-const path = require('path');
+import { app, BrowserWindow, Tray, Menu } from 'electron';
+import path from 'path';
 
 app.on('ready', () => {
   const iconPath = path.join(__dirname, '/img/tray-icon.png');
