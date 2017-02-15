@@ -4,3 +4,5 @@
 </p>
 
 Time tracking application for macOS
+
+[![Build Status](https://travis-ci.org/jakereps/redego.svg?branch=master)](https://travis-ci.org/jakereps/redego)
